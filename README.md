@@ -36,10 +36,14 @@ Congrats on installing!
 After installing, when you open a project, a message will appear at the bottom right of your VS Code window asking, Would you like to run Workspace Archiver for this project?".
 
 If you click "Yes", an ignore_files.txt file needs to be generated. Please add the files and directories you would like to ignore, then save the file.
-Once saved, your codebase will be automatically archived in the workspaceArchiver.txt file. 
+Once saved, your codebase will be automatically archived in the workspaceArchiver.txt file.
 Every time you make a change in a file that you did not ignore, the workspaceArchiver.txt will be updated automatically.
 
 Deactivate workspace archiver by clicking on "Deactivate Workspace Archiver" on the status bar.
 Reactivate workspace archiver by clicking on "Reactivate Workspace Archiver" on the status bar.
 
 Enjoy streamlined productivity with your codebase snapshots!
+
+## Disclaimer
+
+The Workspace Archiver extension is designed to help you create a snapshot of your codebase that can be easily shared or referenced in tools like ChatGPT. Before using this extension, please be aware that any code or data you choose to archive may be exposed when pasted into generative AI platforms. We strongly advise you to remove or redact any sensitive or proprietary information from your code before archiving and sharing it. The extension itself does not filter or remove sensitive data automatically, so it is your responsibility to ensure that only appropriate content is included in the archive. Use this tool with caution and always prioritize the security and confidentiality of your information.
